@@ -4,7 +4,7 @@ The parameters are stored in separate matlab files, and are kept apart from the 
 
 The model framework is shown as follows, 
 
-<img src="C:\Users\ls_gu\Desktop\model.png" style="zoom:40%;" />
+<img src=".\images\model.png" style="zoom:40%;" />
 
 1. Physical model. In this part, we build the temperature and humidity dynamics which are influenced by outside environment , human, radiators and air conditioning. 
 

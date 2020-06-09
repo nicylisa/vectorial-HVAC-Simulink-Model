@@ -3,14 +3,14 @@
 There are two folders for the two experiments based on HVAC model.
 Based on the work of Cauchi and Abate,this work follows model frame work and themromal dynamics improved the model to make it scalable. Ordinary differitial equations list as follows:
 
-Symbol | Reference  | Symbol | Reference
-- | :-: | -: 
-b | bolier |rd  | radiator
-wt | water |w|  wall
-a| air |ac| air conditionning
-r |room number|o | outdoor
-m | mixer room |
-init | initial value | PN |people number in room  
+|Symbol | Reference  | Symbol | Reference|
+|- | :-: | -: |
+|b | bolier |rd  | radiator|
+|wt | water |w|  wall|
+|a| air |ac| air conditionning|
+|r |room number|o | outdoor|
+|m | mixer room |
+|init | initial value | PN |people number in room | 
 	
 
 \begin{table}

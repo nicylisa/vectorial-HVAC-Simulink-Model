@@ -11,8 +11,15 @@ The model framework is shown as follows,
 3. Environment. It is worth noting that Environment is the stochastic part of the entire model including the outdoor environment and people influence on temperature which the number of people is parameterized. Weather datas are    extrapolated to fit our need from the dataset https://www.kaggle.com/selfishgene/historical-hourly-weather-data.  
 4. Evaluations. This part is for verification about HVAC system. 
 
-   There are all the model setting files and model files in HVAC model folder.
+There are all the model setting files and model files in HVAC model folder.
 
+There are two folders for the two experiments based on HVAC model.
+
+The model with different online monitors  is the same in both folder, with the exception of the verification module that changes based on the experiment at hand.
+
+- "fulltest.m" files are the launching scripts
+- the "*.slx" files are the simulink models"
+- the other files are for loading or defining the parameters.
    ## Model parameters and Ordinary Differential Equations
 
 ###### physical identification
@@ -64,10 +71,3 @@ The model framework is shown as follows,
 
 
 
-There are two folders for the two experiments based on HVAC model.
-
-The model with different online monitors  is the same in both folder, with the exception of the verification module that changes based on the experiment at hand.
-
-- "fulltest.m" files are the launching scripts
-- the "*.slx" files are the simulink models"
-- the other files are for loading or defining the parameters.
